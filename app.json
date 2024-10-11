@@ -1,0 +1,14 @@
+{
+    "name": "WebSocket Server",
+    "description": "WebSocket para o Osiris.",
+    "image": "heroku/python",
+    "repository": "https://github.com/limberger/osiris_ws",
+    "keywords": ["python", "websocket"],
+    "environments": {
+      "test": {
+        "scripts": {
+          "test": "./ruserver.py test --debug-mode"
+        }
+      }
+    }
+  }
