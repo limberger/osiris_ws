@@ -9,6 +9,7 @@ websockets = "*"
 [dev-packages]
 twine = "*"
 black = "*"
+hatchling = "*"
 
 [requires]
 python_version = "3.12"

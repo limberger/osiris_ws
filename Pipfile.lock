@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4b2c097266119895da3051136f1dd5c8aea242161caac9aa5b48eecc4ca6daef"
+            "sha256": "44c54946ceec0051c65b596e28899ba696dcf16ef09b5582141817b2daba8bf9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -381,6 +381,15 @@
             "markers": "python_version >= '3.9'",
             "version": "==0.21.2"
         },
+        "hatchling": {
+            "hashes": [
+                "sha256:7064631a512610b52250a4d3ff1bd81551d6d1431c4eb7b72e734df6c74f4262",
+                "sha256:b47948e45d4d973034584dd4cb39c14b6a70227cf287ab7ec0ad7983408a882c"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==1.25.0"
+        },
         "idna": {
             "hashes": [
                 "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9",
@@ -522,6 +531,14 @@
             "markers": "python_version >= '3.8'",
             "version": "==4.3.6"
         },
+        "pluggy": {
+            "hashes": [
+                "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1",
+                "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==1.5.0"
+        },
         "pycparser": {
             "hashes": [
                 "sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6",
@@ -585,6 +602,13 @@
             ],
             "markers": "sys_platform == 'linux'",
             "version": "==3.3.3"
+        },
+        "trove-classifiers": {
+            "hashes": [
+                "sha256:4b46b3e134a4d01999ac5bc6e528afcc10cc48f0f724f185f267e276005768f4",
+                "sha256:f88a27a892891c87c5f8bbdf110710ae9e0a4725ea8e0fb45f1bcadf088a491f"
+            ],
+            "version": "==2024.9.12"
         },
         "twine": {
             "hashes": [
