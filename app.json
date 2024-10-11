@@ -4,6 +4,7 @@
     "image": "heroku/python",
     "repository": "https://github.com/limberger/osiris_ws",
     "keywords": ["python", "websocket"],
+    "stack": "heroku-24",
     "environments": {
       "test": {
         "scripts": {
