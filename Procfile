@@ -1,2 +1,2 @@
-release: pipenv install .
+release: pipenv install
 web: python runserver.py ${PORT}
