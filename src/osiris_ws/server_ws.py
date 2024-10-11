@@ -1,4 +1,5 @@
 import asyncio
+import os
 import websockets
 
 clients = []
@@ -14,7 +15,9 @@ async def serverws(websocket, path):
 
 
 async def main():
-    async with websockets.serve(serverws, "localhost", 80):
+    port=os.environ.get('PORT','3000')
+    print(f"Serving port: {port}")
+    async with websockets.serve(serverws, "localhost", int(port)):
         print("Websockets server Started")
         await asyncio.Future()  # run forever
 
