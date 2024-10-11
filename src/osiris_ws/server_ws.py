@@ -1,7 +1,8 @@
 import asyncio
 import websockets
 
-clients=[]
+clients = []
+
 
 async def serverws(websocket, path):
     global clients
@@ -11,12 +12,12 @@ async def serverws(websocket, path):
     print(f"{response_time} Received: {message}")
     await websocket.send(f"ok")
 
-    
 
 async def main():
     async with websockets.serve(serverws, "localhost", 8765):
         print("Websockets server Started")
-        await asyncio.Future() # run forever
+        await asyncio.Future()  # run forever
+
 
 if __name__ == "__main__":
     asyncio.run(main())

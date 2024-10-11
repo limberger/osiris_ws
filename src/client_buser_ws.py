@@ -4,6 +4,7 @@ import keyboard
 
 # start the websocket client
 
+
 async def start_client():
     async with websockets.connect("ws://localhost:8765") as websocket:
         done = False
@@ -13,6 +14,7 @@ async def start_client():
                 message = await websocket.recv()
                 print(message)
                 done = True
+
 
 def main():
     asyncio.run(start_client())
