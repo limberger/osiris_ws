@@ -3,7 +3,7 @@ import websockets
 
 
 async def hello():
-    uri = "ws://osiris-ws-69795ccd37bb.herokuapp.com:80"
+    uri = "ws://localhost:8765"
     async with websockets.connect(uri) as websocket:
         name = input("Whats you name?")
         await websocket.send(name)
