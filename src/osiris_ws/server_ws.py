@@ -17,7 +17,7 @@ async def serverws(websocket, path):
 async def main():
     port=os.environ.get('PORT','3000')
     print(f"Serving port: {port}")
-    async with websockets.serve(serverws, "localhost", int(port)):
+    async with websockets.serve(serverws, "0.0.0.0", int(port)):
         print("Websockets server Started")
         await asyncio.Future()  # run forever
 
